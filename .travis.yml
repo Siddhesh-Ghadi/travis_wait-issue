@@ -1,0 +1,7 @@
+arch: ppc64le
+dist: bionic
+
+script:
+  - echo "Starting sleep"
+  - sleep 30m
+  - echo "Sleep completed"
