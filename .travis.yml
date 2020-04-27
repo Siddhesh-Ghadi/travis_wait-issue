@@ -4,4 +4,5 @@ dist: bionic
 script:
   - echo "Starting sleep"
   - "travis_wait 12 sleep 720 &"
+  - sleep 11m
   - echo "Sleep completed"
