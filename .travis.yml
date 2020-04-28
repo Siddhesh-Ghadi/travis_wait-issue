@@ -2,8 +2,5 @@ arch: ppc64le
 dist: bionic
 
 script:
-  - echo "Starting sleep"
   - "travis_wait 12 sleep 720 &"
-  - find / -name "*.sh" 2>/dev/null
-  - echo "Sleep completed"
   - cat /home/travis/build.sh
