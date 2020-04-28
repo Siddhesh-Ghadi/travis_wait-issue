@@ -4,4 +4,6 @@ language: c
 
 script:
   - "travis_wait 12 sleep 720 &"
+  - sleep 1m
+  - ps 
   - cat /home/travis/build.sh
