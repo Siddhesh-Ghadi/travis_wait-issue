@@ -1,5 +1,6 @@
 arch: ppc64le
 dist: bionic
+language: c
 
 script:
   - "travis_wait 12 sleep 720 &"
