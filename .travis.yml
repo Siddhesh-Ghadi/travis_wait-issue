@@ -1,10 +1,9 @@
 arch: ppc64le
-dist: bionic
 language: c
 
 script:
   - "travis_wait 12 sleep 720 &"
-  - sleep 1m
+  - sleep 11m
   - ps 
   - jobs
   - cat /home/travis/build.sh
