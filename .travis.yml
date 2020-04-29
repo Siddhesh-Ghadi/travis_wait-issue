@@ -2,10 +2,4 @@ arch: ppc64le
 language: c
 
 script:
-  - "travis_wait 12 sleep 12m &"
-  - bash
-  - sleep 11
-  - exit
-  - ps 
-  - jobs
-  - #cat /home/travis/build.sh
+  - travis_wait 15 sleep 12m 
